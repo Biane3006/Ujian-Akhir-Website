@@ -1,0 +1,567 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#Bar_Atas {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.Contact_Atas, .sosmed {
+    list-style: none;
+    padding: 0;
+}
+
+#Bar_Atas li {
+    display: inline-block;
+}
+
+#Bar_Atas li a {
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#Bar_Atas li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+
+#Bar_Atas .sosmed li a{
+    padding:0 5px;
+}
+
+#Bar_Atas .sosmed li a i {
+    color: white;
+}
+
+/* CSS UNTUK HEADER (NAMA SEKOLAH) */
+
+header {
+    padding: 30px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 60px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 17px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.bungkusan-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+.btn.btn-utama,
+a.btn.btn-utama{
+    background-color: blue;
+    color: white;
+}
+.btn.btn-utama:hover,
+a.btn.btn-utama:hover{
+    background-color: #F2C808;
+    color: white;
+}
+
+/* CSS NAVBAR */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #F2C808;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-biru {
+    background-color: blue!important;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .active> .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.active {
+    background-color: #F2C808;
+    color: blue;
+}
+
+li.nav-item.active a{
+    color: blue;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* Bagian Slide */
+
+#hero-area {
+    position: relative;
+}
+
+#slider-hero-nav .owl-next,
+#slider-hero-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: blue;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#slider-hero-nav .owl-prev {
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+    cursor: pointer;
+    background-color: #F2C808;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hero-area .slider-item-content h2{
+    font-size: 35px;
+    font-weight: 400;   
+}
+
+
+#hero-area .slider-item-content p {
+    font-size: 18px;
+}
+
+/* Bagian Sambutan */
+
+#sambutan {
+    margin: 60px 0;
+}
+#sambutan h2{
+    color: blue;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#sambutan h3{
+    color: blue;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500;
+    line-height: 28px;
+}
+
+
+/* Prestasi */
+
+#prestasi {
+    min-height: 250px;
+}
+
+#prestasi .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 25px #ddd;
+    min-height: 260px;
+    overflow: hidden;
+}
+
+.section-item-thumbnail {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+}
+
+.section-title{
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+
+.section-item-title {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: 600;
+}
+
+.section-title h2:after{
+    position:absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-item-title h3{
+    font-size: 18px;
+    color:blue;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span{
+    font-size: 12px;
+    color:#666;
+    font-weight: 500;
+}
+
+.section-item-title span i{
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type{
+    margin-right: 15px;
+}
+
+.section-item-body p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+/* CSS untuk Tombol Selengkapnya */
+
+.tombol-selengkapnya{
+    text-align: center;
+}
+
+.btn.btn-more{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 0;
+    padding: 10px 40px;
+}
+
+.btn.btn-more:hover{
+    background-color: blue;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* CSS untuk slider Tenaga Pengajar */
+
+#tenaga-pendidik .owl-item{
+    padding: 20px 10px;
+    background-color: transparent;
+}
+
+.section-item-slider{
+    height: 380px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.342);
+    position: relative;
+}
+
+#tenaga-pendidik .foto-guru{
+    height: 100%;
+    object-fit: cover;
+}
+
+#tenaga-pendidik .section-item-caption{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    color: black;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px 15px;
+}
+
+#tenaga-pendidik .section-item-caption h5{
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#tenaga-pendidik .section-item-caption h6{
+    color: #F2C808;
+    font-size: 18px;
+}
+
+#tenaga-pendidik .section-body{
+    position: relative;
+}
+
+#slider-tools-1 .owl-next,
+#slider-tools-1 .owl-prev{
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60px;
+    z-index: 20;
+    background-color: blue;
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 20px #ddd;
+    transition: background-color 0.3s;
+}
+
+#slider-tools-1 .owl-prev{
+    left: -60px;
+}
+
+#slider-tools-1 .owl-next:hover,
+#slider-tools-1 .owl-prev:hover{
+    cursor: pointer;
+    background-color: #F2C808;
+}
+
+/* CSS untuk Ekstrakurikuler */
+
+#ekstrakurikuler{
+    background-color: #ddd;
+    padding: 80px 0;
+}
+
+#ekstrakurikuler .section-body-item{
+    display: flex;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+    color: #F2C808;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    /* box-sizing: border-box; */
+}
+
+#ekstrakurikuler .section-body-item h4{
+    font-weight: 450;
+}
+
+#ekstrakurikuler .section-body .row:first-of-type {
+    margin-bottom: 30px;
+}
+
+#ekstrakurikuler .row-2{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+
+/* CSS untuk Footer */
+
+footer{
+    color: white;
+    background-color: blue;
+    padding: 80px 0 0;
+}
+
+footer .footer-col:first-of-type{
+    padding-right: 30px;
+}
+
+footer .brand{
+    display: flex;
+}
+
+footer .brand img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+footer .tentang{
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(255,255,255,0.5);
+}
+
+footer .sosmed{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li a{
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer .sosmed li a:hover{
+    color: #c7c7c7;
+}
+
+.footer-col h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-col .alamat{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.footer-col .kontak{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-col .kontak li{
+    margin: 10px 0;
+}
+
+.footer-col .kontak i{
+    margin-right: 10px;
+}
+
+.footer-col .footer-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .footer-nav li{
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a{
+    color: white;
+    font-size: 15px;
+    font-weight: 28px;
+    transition: all 0.5s;
+}
+
+.footer-col .footer-nav a:hover{
+    border-bottom: 1px dashed white;
+}
+
+.footer-copyright .container{
+    border-top: 1px solid white;
+    padding: 10px 0;
+}
+
+.footer-copyright{
+    margin-top: 60px;
+}
+
+.ffoter-copyright h6{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
